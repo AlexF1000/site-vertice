@@ -1,0 +1,208 @@
+# Antigravity IDE - Master Specification File
+# Project: Reboque Rápido 24horas - Website One-Page
+# Architecture: UI/UX Design System, Local SEO & Business Rules Unified
+
+project:
+  name: "Reboque Rápido 24horas"
+  type: "one-page"
+  industry: "Serviço de Guincho e Auto Socorro 24 Horas"
+  dominio: "reboquerapido24horas.com.br"
+  aesthetic: "Industrial, Robust, Masculine, High-Contrast, Dark Mode First"
+
+role:
+  persona: "Senior Frontend Engineer & UI/UX Designer"
+  objective: "Build a high-converting, rugged, and professional one-page web interface for an emergency towing service using the exact color scheme, SEO targets, and business data below."
+
+empresa:
+  nome: "Reboque Rápido 24horas"
+  segmento: "Serviço de Guincho e Auto Socorro 24 Horas"
+  cidade: "Santo Amaro da Imperatriz"
+  estado: "SC"
+  pais: "BR"
+  telefone: "5548999998888"
+  whatsapp: "5548999998888"
+  endereco: "Estrada Geral do Sítio de Dentro, S/N° - Santo Amaro da Imperatriz, CEP: 88141-174"
+  horario: "24 horas (7 dias por semana)"
+  bairros_atendidos: "Santo Amaro da Imperatriz, Grande Florianópolis e atendimento em todo o estado de Santa Catarina"
+  google_maps_iframe: ""
+  logo_path: "/assets/img/logo.png"
+  redes_sociais:
+    instagram: ""
+    facebook: ""
+
+conversion_rules:
+  type: "WhatsApp Direct Click-to-Chat (Zero Forms)"
+  cta_principal: "Chamar Guincho Agora no WhatsApp"
+  whatsapp_default_message: "Olá! Preciso de um guincho urgente em Santo Amaro da Imperatriz / Região."
+
+seo:
+  palavra_chave_principal: "guincho 24 horas em santo amaro da imperatriz"
+  palavras_secundarias:
+    - "reboque rapido sc"
+    - "auto socorro 24h santo amaro da imperatriz"
+    - "guincho para carros batidos e pane"
+    - "serviço de reboque santa catarina"
+  area_atuacao: "Santo Amaro da Imperatriz e Estado de Santa Catarina"
+
+servicos:
+  - nome: "Guincho para Pane Mecânica e Elétrica"
+    descricao: "Socorro emergencial rápido para veículos que pararam na estrada ou na cidade, disponível 24 horas."
+    slug: "guincho-pane-mecanica"
+  - nome: "Reboque de Veículos Batidos e Acidentados"
+    descricao: "Transporte seguro e especializado para automóveis sinistrados e com danos estruturais em todo o estado."
+    slug: "reboque-veiculos-acidentados"
+  - nome: "Auto Socorro e Transporte Intermunicipal"
+    descricao: "Remoção e transporte de veículos leves e utilitários entre cidades de Santa Catarina com agilidade."
+    slug: "transporte-intermunicipal-reboque"
+
+diferenciais:
+  - "Atendimento ágil com estimativa de chegada imediata via WhatsApp"
+  - "Disponibilidade total 24 horas por dia, 7 dias por semana"
+  - "Excelente custo-benefício e orçamento transparente sem surpresas"
+  - "Cobertura regional ampla para todo o estado de Santa Catarina"
+
+prova_social:
+  - "Atendimento emergencial 24/7 com equipe pronta para deslocamento imediato"
+  - "Veículos equipados para transporte seguro de qualquer tipo de avaria"
+
+design_system:
+  branding:
+    tom: "Direto, urgente, confiável e profissional"
+  palette:
+    primary:
+      name: "Laranja Industrial (Industrial Amber)"
+      hex: "#D97724"
+      rgb: "rgb(217, 119, 36)"
+      hsl: "hsl(27, 72%, 50%)"
+      role: "Action, Urgency, Primary CTAs (Chamar Guincho, WhatsApp 24h), Key Highlights"
+      contrast_text: "#FFFFFF"
+      hover_state: "#B85F18"
+      active_state: "#9E4F12"
+
+    secondary:
+      name: "Azul Petróleo Escuro (Deep Steel Blue)"
+      hex: "#1A2B3C"
+      rgb: "rgb(26, 43, 60)"
+      hsl: "hsl(210, 40%, 17%)"
+      role: "Structural elements, Headers, Footers, Navbars, Subtle borders, Badges"
+      contrast_text: "#FFFFFF"
+
+    background:
+      main:
+        name: "Cinza Chumbo Escuro (Dark Lead Charcoal)"
+        hex: "#1E1F22"
+        rgb: "rgb(30, 31, 34)"
+        role: "Primary background (Dark Theme), Full-page body canvas"
+      surface_card:
+        name: "Cinza Aço Médio (Medium Steel Surface)"
+        hex: "#2E3035"
+        rgb: "rgb(46, 48, 53)"
+        role: "Card components, Service boxes, Modal backdrops, Form inputs"
+      surface_elevated:
+        name: "Cinza Aço Claro (Elevated Gray)"
+        hex: "#3A3D43"
+        rgb: "rgb(58, 61, 67)"
+        role: "Card hover states, Dropdown menus, Popovers"
+
+    typography_colors:
+      text_primary:
+        name: "Branco Puro (Pure White)"
+        hex: "#FFFFFF"
+        role: "H1, H2, H3 titles, Button texts on dark/orange, High-priority text"
+      text_secondary:
+        name: "Prata Metálico Claro (Light Metallic Silver)"
+        hex: "#B0B7BD"
+        role: "Body paragraphs, Subtitles, Helper text, Inactive icons"
+      text_muted:
+        name: "Cinza Metálico Escuro (Muted Slate)"
+        hex: "#747D88"
+        role: "Placeholders, Timestamps, Disclaimers, Borders"
+
+    status_and_accents:
+      emergency_red: "#C0392B"
+      success_green: "#27AE60"
+      warning_amber: "#E67E22"
+      metallic_border: "#40454E"
+
+  typography:
+    headings_font: "Impact, Montserrat, 'Teko', sans-serif"
+    body_font: "'Inter', 'Roboto', sans-serif"
+    weights:
+      bold: 700
+      extra_bold: 800
+      black: 900
+
+  ui_components:
+    cta_button:
+      background: "#D97724"
+      color: "#FFFFFF"
+      font_weight: 800
+      text_transform: "uppercase"
+      box_shadow: "0 4px 14px rgba(217, 119, 36, 0.4)"
+      border_radius: "6px"
+      hover:
+        background: "#B85F18"
+        transform: "translateY(-2px)"
+
+    emergency_banner:
+      background: "linear-gradient(90deg, #1A2B3C 0%, #D97724 100%)"
+      color: "#FFFFFF"
+      badge:
+        background: "#D97724"
+        text: "#FFFFFF"
+
+    service_card:
+      background: "#2E3035"
+      border: "1px solid #40454E"
+      hover_border: "1px solid #D97724"
+      title_color: "#FFFFFF"
+      description_color: "#B0B7BD"
+
+code_integration:
+  tailwind_config: |
+    module.exports = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              orange: '#D97724',
+              'orange-hover': '#B85F18',
+              petroleum: '#1A2B3C',
+              charcoal: '#1E1F22',
+              steel: '#2E3035',
+              'steel-light': '#3A3D43',
+              silver: '#B0B7BD',
+              slate: '#747D88',
+              border: '#40454E',
+            }
+          },
+          fontFamily: {
+            heading: ['Montserrat', 'Teko', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+
+  css_variables: |
+    :root {
+      --color-primary: #D97724;
+      --color-primary-hover: #B85F18;
+      --color-secondary: #1A2B3C;
+      --color-bg-main: #1E1F22;
+      --color-bg-card: #2E3035;
+      --color-bg-card-hover: #3A3D43;
+      --color-text-primary: #FFFFFF;
+      --color-text-secondary: #B0B7BD;
+      --color-border: #40454E;
+    }
+
+prompt_instructions:
+  - "Always implement UI elements with dark theme as default."
+  - "NO CONTACT FORMS: Direct all conversion funnels to WhatsApp links (https://wa.me/5548999998888)."
+  - "Reserve #D97724 (Industrial Orange) exclusively for primary conversion actions, emergency triggers, and active states."
+  - "Use #1A2B3C (Steel Blue) for foundational navigation bars, hero backdrops, and footer panels."
+  - "Ensure high contrast ratio (WCAG AA/AAA compliant) using #FFFFFF and #B0B7BD over dark backgrounds."
+  - "Apply sharp/technical borders (#40454E) and subtle metallic shadows to convey durability, strength, and trust."
+  - "Integrate Local SEO keywords naturally across H1, H2 tags, and meta descriptions."

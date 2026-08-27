@@ -1,0 +1,206 @@
+/* ==========================================================================
+   VÉRTICE SOCIAL MÍDIA — CUSTOM STYLES & LUXURY DESIGN TOKENS
+   Palette: Noble Gold (#A27A1A) + Deep Luxury Dark (#080C14)
+   ========================================================================== */
+
+/* 1. Prevent Flash of Unstyled Content for Alpine.js elements */
+[x-cloak] {
+  display: none !important;
+}
+
+:root {
+  --color-gold-primary: #A27A1A;
+  --color-gold-hover: #B88B22;
+  --color-gold-radiant: #D4AF37;
+  --color-gold-glow: rgba(162, 122, 26, 0.4);
+  --color-gold-subtle: rgba(162, 122, 26, 0.15);
+  --color-gold-border: rgba(162, 122, 26, 0.35);
+
+  --color-bg-main: #080C14;
+  --color-bg-secondary: #0E131F;
+  --color-bg-card: #121826;
+  --color-bg-card-hover: #162033;
+  --color-bg-card-elevated: #1A253C;
+
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #CBD5E1;
+  --color-text-muted: #64748B;
+  --color-border-subtle: rgba(255, 255, 255, 0.08);
+
+  --font-heading: 'Outfit', 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-bg-main);
+  color: var(--color-text-secondary);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Background gradient otimizado com pseudo-elemento fixo para GPU sem causar repaint no scroll mobile */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(162, 122, 26, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 65%, rgba(26, 43, 60, 0.25) 0%, transparent 45%),
+    radial-gradient(circle at 50% 90%, rgba(162, 122, 26, 0.05) 0%, transparent 50%);
+  z-index: -1;
+  pointer-events: none;
+  transform: translateZ(0);
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-heading);
+}
+
+/* Glassmorphism Styles & Luxury Components */
+.glass-nav {
+  background: rgba(8, 12, 20, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(162, 122, 26, 0.2);
+}
+
+.glass-card {
+  background: rgba(18, 24, 38, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.glass-card:hover {
+  background: rgba(22, 32, 51, 0.98);
+  border-color: var(--color-gold-border);
+  transform: translateY(-3px);
+}
+
+/* Adiar a renderização dos cards do blog até entrarem na viewport */
+#blog article.glass-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 500px 420px;
+}
+
+.glass-card-featured {
+  background: linear-gradient(145deg, rgba(26, 37, 60, 0.85) 0%, rgba(18, 24, 38, 0.95) 100%);
+  border: 1px solid var(--color-gold-border);
+  box-shadow: 0 0 25px rgba(162, 122, 26, 0.15);
+}
+
+/* Gold Buttons & Gradients */
+.btn-gold {
+  background: linear-gradient(135deg, #FAD961 0%, #D4AF37 50%, #A27A1A 100%);
+  color: #080C14;
+  font-weight: 700;
+  transition: all 0.25s ease;
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #FFE885 0%, #E5C158 50%, #B88B22 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.35);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FAD961 0%, #D4AF37 40%, #A27A1A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #C59B27 0%, #A27A1A 50%, #846212 100%);
+}
+
+.bg-gold-gradient-hover:hover {
+  background: linear-gradient(135deg, #D4AF37 0%, #B88B22 50%, #956F14 100%);
+  box-shadow: 0 0 24px rgba(162, 122, 26, 0.5);
+}
+
+/* Gold Glow Borders */
+.gold-border-glow {
+  position: relative;
+}
+
+.gold-border-glow::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.6), rgba(162, 122, 26, 0.1), rgba(212, 175, 55, 0.6));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080C14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #28354D;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A27A1A;
+}
+
+/* WhatsApp Floating Button Animation */
+.whatsapp-pulse {
+  animation: pulse-gold 2.4s infinite;
+}
+
+@keyframes pulse-gold {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6), 0 0 0 0 rgba(162, 122, 26, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(37, 211, 102, 0), 0 0 0 24px rgba(162, 122, 26, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0), 0 0 0 0 rgba(162, 122, 26, 0);
+  }
+}
+
+/* Subtle Shimmer Badge */
+.shimmer-badge {
+  background: linear-gradient(90deg, rgba(162, 122, 26, 0.15) 0%, rgba(212, 175, 55, 0.3) 50%, rgba(162, 122, 26, 0.15) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+  border: 1px solid rgba(162, 122, 26, 0.4);
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Floating animation for decorative items */
+.float-subtle {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}

@@ -1,0 +1,80 @@
+# ==============================================================================
+# VÉRTICE SOCIAL MÍDIA — APACHE WEB SERVER CONFIGURATION (.HTACCESS)
+# Production Optimization for Hostinger / Apache 2.4+
+# ==============================================================================
+
+RewriteEngine On
+
+# 1. Force HTTPS (301 Permanent Redirect)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Redirect WWW to Non-WWW (301 Canonical)
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# 3. Custom 404 Handler (Fallback to One-Page Root)
+ErrorDocument 404 /index.html
+
+# 4. GZIP / DEFLATE Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/woff
+  AddOutputFilterByType DEFLATE font/woff2
+</IfModule>
+
+# 5. Browser Caching & Strict Cache-Busting for HTML
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Images and Media (1 Month)
+  ExpiresByType image/jpg "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 month"
+
+  # CSS and JavaScript (1 Week)
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType text/javascript "access plus 1 week"
+
+  # Web Fonts (1 Month)
+  ExpiresByType font/woff2 "access plus 1 month"
+  ExpiresByType font/woff "access plus 1 month"
+  ExpiresByType font/ttf "access plus 1 month"
+
+  # HTML Pages - NEVER CACHE (Zero seconds to guarantee instant updates)
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# Strict No-Cache Header for HTML
+<FilesMatch "\.(html|htm)$">
+  <IfModule mod_headers.c>
+    Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+  </IfModule>
+</FilesMatch>
+
+# Security Headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

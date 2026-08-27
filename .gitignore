@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Zip and Backup files (exceed GitHub 100MB limit)
+*.zip
+*.tar.gz
+*.rar
+imagens/Backup Vertce/
+
+# System and logs
+.DS_Store
+Thumbs.db
+*.log

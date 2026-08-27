@@ -1,0 +1,13 @@
+{
+  "name": "site-vertice",
+  "version": "1.0.0",
+  "description": "Site Vértice Social Mídia & Performance",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch",
+    "build": "npm run build:css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -1,0 +1,60 @@
+empresa:
+  nome: "Reboque Rápido 24horas"
+  segmento: "Serviço de Guincho e Auto Socorro 24 Horas"
+  cidade: "Santo Amaro da Imperatriz"
+  estado: "SC"
+  pais: "BR"
+  telefone: "5548999998888"
+  whatsapp: "5548999998888"
+  endereco: "Estrada Geral do Sítio de Dentro, S/N° - Santo Amaro da Imperatriz, CEP: 88141-174"
+  horario: "24 horas (7 dias por semana)"
+  bairros_atendidos: "Santo Amaro da Imperatriz, Grande Florianópolis e atendimento em todo o estado de Santa Catarina"
+  google_maps_iframe: ""
+  logo_path: "/assets/img/logo.png"
+  redes_sociais:
+    instagram: ""
+    facebook: ""
+
+branding:
+  tom: "Direto, urgente, confiável e profissional"
+  paleta:
+    primaria: "#D97724"
+    secundaria: "#1A2B3C"
+    fundo: "#1E1F22"
+    texto: "#FFFFFF"
+
+seo:
+  palavra_chave_principal: "guincho 24 horas em santo amaro da imperatriz"
+  palavras_secundarias:
+    - "reboque rapido sc"
+    - "auto socorro 24h santo amaro da imperatriz"
+    - "guincho para carros batidos e pane"
+    - "serviço de reboque santa catarina"
+  area_atuacao: "Santo Amaro da Imperatriz e Estado de Santa Catarina"
+
+servicos:
+  - nome: "Guincho para Pane Mecânica e Elétrica"
+    descricao: "Socorro emergencial rápido para veículos que pararam na estrada ou na cidade, disponível 24 horas."
+    slug: "guincho-pane-mecanica"
+  - nome: "Reboque de Veículos Batidos e Acidentados"
+    descricao: "Transporte seguro e especializado para automóveis sinistrados e com danos estruturais em todo o estado."
+    slug: "reboque-veiculos-acidentados"
+  - nome: "Auto Socorro e Transporte Intermunicipal"
+    descricao: "Remoção e transporte de veículos leves e utilitários entre cidades de Santa Catarina com agilidade."
+    slug: "transporte-intermunicipal-reboque"
+
+diferenciais:
+  - "Atendimento ágil com estimativa de chegada imediata via WhatsApp"
+  - "Disponibilidade total 24 horas por dia, 7 dias por semana"
+  - "Excelente custo-benefício e orçamento transparente sem surpresas"
+  - "Cobertura regional ampla para todo o estado de Santa Catarina"
+
+prova_social:
+  - "Atendimento emergencial 24/7 com equipe pronta para deslocamento imediato"
+  - "Veículos equipados para transporte seguro de qualquer tipo de avaria"
+
+cta_principal: "Chamar Guincho Agora no WhatsApp"
+
+dominio: "reboquerapido24horas.com.br"
+
+tipo_site: "one-page"

@@ -1,0 +1,392 @@
+# Antigravity IDE - Master Specification File
+# Project: Vértice Social Mídia - Website One-Page (Clean Rebuild)
+# Architecture: UI/UX Luxury Design System, Local SEO & Business Rules Unified
+
+project:
+  name: "Vértice Social Mídia"
+  version: "1.0"
+  mode: "clean-rebuild"
+  type: "one-page"
+  industry: "Agência de Marketing Digital, Tráfego Pago e Automações com IA"
+  dominio: "verticesocialmidia.com"
+  aesthetic: "Ultra-Premium, Luxury Dark Mode, Golden Accents, High-Tech, High-Contrast"
+
+role:
+  persona: "Senior Frontend Engineer, CRO Specialist & UI/UX Designer"
+  objective: "Build a high-converting, luxury-grade, and professional one-page web interface for Vértice Social Mídia using modern web standards, local SEO for Greater Florianópolis, and direct WhatsApp conversion."
+
+empresa:
+  nome: "Vértice Social Mídia"
+  razao_social: "Vértice Social Mídia & Performance Digital"
+  segmento: "Agência de Marketing Digital, Tráfego Pago, Criação de Sites e Automações com IA"
+  cidade: "Santo Amaro da Imperatriz"
+  estado: "SC"
+  pais: "BR"
+  telefone: "5548998404830"
+  whatsapp: "5548998404830"
+  telefone_formatado: "+55 (48) 99840-4830"
+  emails:
+    contato: "contato@verticesocialmidia.com"
+    suporte: "suporte@verticesocialmidia.com"
+    comercial: "comercial@verticesocialmidia.com"
+  horario: "Segunda a Sexta: 08h às 19h | Suporte a Campanhas: 24/7"
+  bairros_atendidos: "Santo Amaro da Imperatriz, Florianópolis (Centro, Trindade, Lagoa, Norte e Sul da Ilha, Continente), São José (Kobrasol, Campinas, Barreiros), Palhoça (Pedra Branca, Pagani), Biguaçu e atendimento remoto em todo o Brasil"
+  area_cobertura: "Grande Florianópolis e todo o território nacional"
+  google_maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113110.82667610738!2d-28.7!3d-27.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527392a54388047%3A0xb5b796beaa5d5402!2sSanto%20Amaro%20da%20Imperatriz%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+  logo_path: "/assets/img/logo-vertice-gold.png"
+  redes_sociais:
+    instagram: "https://instagram.com/verticesocialmidia"
+    facebook: "https://facebook.com/verticesocialmidia"
+    linkedin: "https://linkedin.com/company/verticesocialmidia"
+
+conversion_rules:
+  type: "WhatsApp Direct Click-to-Chat (Zero Forms)"
+  cta_principal: "Solicitar Proposta Gratuita no WhatsApp"
+  cta_secundario: "Falar com um Especialista Agora"
+  whatsapp_default_message: "Olá! Gostaria de um diagnóstico gratuito para acelerar as vendas da minha empresa com a Vértice Social Mídia."
+  whatsapp_service_message: "Olá! Tenho interesse no serviço de {service} da Vértice Social Mídia."
+
+seo:
+  palavra_chave_principal: "marketing digital e tráfego pago em santo amaro da imperatriz e florianópolis"
+  palavras_secundarias:
+    - "agência de marketing digital florianópolis"
+    - "gestão de tráfego pago são josé sc"
+    - "criação de sites de alta conversão palhoça"
+    - "automação com inteligência artificial para empresas"
+    - "gestão de redes sociais santo amaro da imperatriz"
+    - "consultoria seo e posicionamento google grande florianópolis"
+    - "google ads e meta ads santa catarina"
+  area_atuacao: "Santo Amaro da Imperatriz, Florianópolis, São José, Palhoça, Biguaçu e Brasil"
+  meta_title: "Vértice Social Mídia | Agência de Marketing Digital & Tráfego Pago"
+  meta_description: "Escale suas vendas com a Vértice Social Mídia. Tráfego pago de alta performance, criação de sites, automações com IA e presença digital estratégica em SC."
+
+servicos:
+  - nome: "Tráfego Pago de Alta Performance"
+    slug: "trafego-pago"
+    icone: "trending-up"
+    descricao: "Gestão cirúrgica de campanhas no Google Ads, Meta Ads (Instagram e Facebook), TikTok Ads e LinkedIn Ads com foco implacável em ROI, custo por lead reduzido e vendas escaláveis."
+    destaques:
+      - "Segmentação qualificada para seu público ideal"
+      - "Otimização diária de conversões e custo por aquisição (CPA)"
+      - "Dashboards transparentes em tempo real"
+    cta: "Escalar com Tráfego Pago"
+
+  - nome: "Criação de Sites & Landing Pages"
+    slug: "criacao-de-sites"
+    icone: "layout"
+    descricao: "Desenvolvimento de páginas ultra-rápidas, elegantes e 100% responsivas, arquitetadas para transformar visitantes casuais em clientes pagantes com velocidade extrema e SEO avançado."
+    destaques:
+      - "Design exclusivo alinhado ao posicionamento da sua marca"
+      - "Otimização máxima de velocidade (PageSpeed 90+)"
+      - "Integração nativa com WhatsApp, Pixel e Google Analytics"
+    cta: "Criar Meu Site de Alta Conversão"
+
+  - nome: "Social Media & Gestão de Autoridade"
+    slug: "social-media"
+    icone: "share-2"
+    descricao: "Planejamento estratégico, design de impacto e produção de conteúdo dinâmico (Reels, Carrosséis e Stories) para posicionar sua marca como líder incontestável no seu mercado."
+    destaques:
+      - "Linha editorial estratégica voltada para vendas"
+      - "Criativos visuais de alto padrão estético"
+      - "Aumento real de engajamento e retenção de comunidade"
+    cta: "Potencializar Minhas Redes Sociais"
+
+  - nome: "Automações com Inteligência Artificial"
+    slug: "automacoes-ia"
+    icone: "cpu"
+    descricao: "Implementação de assistentes inteligentes e fluxos automatizados de atendimento e qualificação no WhatsApp e Instagram Direct que trabalham e fecham negócios 24 horas por dia."
+    destaques:
+      - "Atendimento humanizado e instantâneo sem filas"
+      - "Qualificação e agendamento automático de reuniões"
+      - "Integração com CRM e funil de vendas multicanal"
+    cta: "Automatizar Meu Atendimento com IA"
+
+  - nome: "SEO Local & Otimização para o Google"
+    slug: "seo-otimizacao"
+    icone: "search"
+    descricao: "Estratégias avançadas de ranqueamento orgânico para colocar seu negócio no topo das buscas do Google no momento exato em que os clientes da sua região procuram pelos seus serviços."
+    destaques:
+      - "Otimização completa do Google Meu Negócio"
+      - "SEO on-page técnico com dados estruturados Rich Results"
+      - "Domínio das buscas locais em Santo Amaro e Grande Fpolis"
+    cta: "Dominar o Topo do Google"
+
+  - nome: "Identidade Visual & Branding Estratégico"
+    slug: "identidade-visual"
+    icone: "palette"
+    descricao: "Construção de marcas memoráveis, logotipos sofisticados, paletas cromáticas nobres e guias de estilo que transmitem solidez, credibilidade e desejo imediato."
+    destaques:
+      - "Logotipo exclusivo com conceito e aplicações"
+      - "Manual de identidade visual e tipografia de luxo"
+      - "Kit completo de ativos digitais e materiais de apresentação"
+    cta: "Construir Minha Marca Premium"
+
+diferenciais:
+  - titulo: "Foco Total em ROI e Vendas Reais"
+    descricao: "Não vendemos métricas de vaidade (curtidas vazias). Nosso objetivo é colocar dinheiro em caixa e gerar lucro previsível para a sua empresa."
+    icone: "target"
+
+  - titulo: "Tecnologia & Inteligência de Dados"
+    descricao: "Unimos ferramentas de inteligência artificial de última geração e análise preditiva de dados para tomar decisões assertivas e velozes."
+    icone: "zap"
+
+  - titulo: "Atendimento Consultivo e Próximo"
+    descricao: "Comunicação direta, relatórios claros sem termos complicados e acompanhamento contínuo dos resultados junto com a sua diretoria."
+    icone: "users"
+
+  - titulo: "Estratégias 100% Personalizadas"
+    descricao: "Sem receitas de bolo genéricas. Cada funil, criativo e campanha é desenhado especificamente para o modelo do seu negócio e concorrência."
+    icone: "shield-check"
+
+prova_social:
+  metricas:
+    - valor: "+R$ 5M"
+      rotulo: "Gerados em Vendas para Clientes"
+    - valor: "98.7%"
+      rotulo: "Taxa de Retenção e Satisfação"
+    - valor: "+150"
+      rotulo: "Projetos e Campanhas Executadas"
+    - valor: "4.9/5"
+      rotulo: "Avaliação Média no Google"
+  depoimentos:
+    - autor: "Eduardo Silveira"
+      cargo: "Diretor Comercial - Imobiliária Prime"
+      cidade: "Florianópolis, SC"
+      texto: "Antes da Vértice nós tínhamos verba sendo desperdiçada em anúncios que não traziam compradores reais. Em menos de 90 dias a equipe reestruturou nosso funil, e nosso custo por lead qualificado caiu mais de 45% com aumento expressivo nas vendas."
+      estrelas: 5
+    - autor: "Dra. Camila Menezes"
+      cargo: "Fundadora - Clínica Odontológica Harmonize"
+      cidade: "São José, SC"
+      texto: "O novo site com automação de WhatsApp transformou nossa rotina. Os pacientes entram em contato, recebem atendimento imediato e já agendam a avaliação sem espera. O retorno sobre o investimento foi surpreendente!"
+      estrelas: 5
+    - autor: "Rodrigo Fagundes"
+      cargo: "Sócio Administrador - Centro Automotivo Imperial"
+      cidade: "Santo Amaro da Imperatriz, SC"
+      texto: "Parceria de alto nível. Além da transparência semanal nas métricas de tráfego, a presença visual da nossa marca no Instagram e no Google ficou muito mais forte e profissional. Recomendo de olhos fechados!"
+      estrelas: 5
+
+design_system:
+  branding:
+    tom: "Sofisticado, inovador, focado em alta performance, confiável e executivo"
+  palette:
+    primary:
+      name: "Ouro Nobre Vértice (Noble Gold)"
+      hex: "#A27A1A"
+      rgb: "rgb(162, 122, 26)"
+      hsl: "hsl(42, 72%, 37%)"
+      glow: "rgba(162, 122, 26, 0.45)"
+      hover: "#B88B22"
+      active: "#846212"
+      role: "Botões de conversão, badges de destaque, ícones de autoridade e contornos luminosos"
+      contrast_text: "#FFFFFF"
+
+    gold_light:
+      name: "Ouro Radiante (Bright Gold)"
+      hex: "#D4AF37"
+      hover: "#E5C158"
+
+    background:
+      main:
+        name: "Preto Profundo Luxuoso (Deep Luxury Canvas)"
+        hex: "#080C14"
+        rgb: "rgb(8, 12, 20)"
+        role: "Fundo global do site em dark mode absoluto"
+      secondary:
+        name: "Azul Noturno Profundo (Deep Midnight Navy)"
+        hex: "#0E131F"
+        role: "Seções alternadas e divisões de contraste"
+      surface_card:
+        name: "Superfície Dark Slate (Card Glass Surface)"
+        hex: "#121826"
+        role: "Cards de serviços, depoimentos, caixas de FAQ e containers elevados"
+      surface_elevated:
+        name: "Superfície Elevada de Hover"
+        hex: "#1A2234"
+        role: "Estados hover de cards, popovers e modais"
+
+    typography_colors:
+      text_primary:
+        name: "Branco Puro (Pure White)"
+        hex: "#FFFFFF"
+        role: "Títulos principais H1, H2, H3 e botões de destaque"
+      text_secondary:
+        name: "Prata Platina Metálico (Platinum Slate)"
+        hex: "#CBD5E1"
+        role: "Subtítulos, corpo de texto e descrições técnicas"
+      text_muted:
+        name: "Cinza Médio Neutro (Muted Steel)"
+        hex: "#64748B"
+        role: "Disclaimers, rodapé legal, timestamps e placeholders"
+
+    borders:
+      subtle: "rgba(255, 255, 255, 0.08)"
+      gold_subtle: "rgba(162, 122, 26, 0.3)"
+      gold_glow: "rgba(162, 122, 26, 0.6)"
+
+  typography:
+    headings_font: "'Outfit', 'Montserrat', -apple-system, sans-serif"
+    body_font: "'Inter', system-ui, sans-serif"
+    weights:
+      regular: 400
+      medium: 500
+      semi_bold: 600
+      bold: 700
+      extra_bold: 800
+
+code_integration:
+  css_variables: |
+    :root {
+      --color-gold: #A27A1A;
+      --color-gold-hover: #B88B22;
+      --color-gold-light: #D4AF37;
+      --color-gold-glow: rgba(162, 122, 26, 0.4);
+      --color-bg-main: #080C14;
+      --color-bg-secondary: #0E131F;
+      --color-bg-card: #121826;
+      --color-bg-card-hover: #1A2234;
+      --color-text-primary: #FFFFFF;
+      --color-text-secondary: #CBD5E1;
+      --color-text-muted: #64748B;
+      --color-border-subtle: rgba(255, 255, 255, 0.08);
+      --color-border-gold: rgba(162, 122, 26, 0.35);
+    }
+
+politica_privacidade:
+  meta:
+    titulo: "Política de Privacidade"
+    empresa: "Vértice Social Mídia (Vertice SM)"
+    dominio: "verticesocialmidia.com"
+    dominio_alternativo: "verticesm.com"
+    versao: "1.0"
+    data_atualizacao: "2026-08-26"
+    legislacao: "Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018)"
+
+  secoes:
+    - id: "introducao"
+      titulo: "Visão Geral"
+      conteudo: >
+        Esta Política de Privacidade descreve como a Vértice Social Mídia coleta, utiliza,
+        armazena e protege os dados pessoais dos usuários que acessam o site
+        verticesocialmidia.com / verticesm.com, em estrita conformidade com a LGPD.
+
+    - id: "informacoes_coletadas"
+      titulo: "Informações Coletadas"
+      itens:
+        - categoria: "Dados fornecidos diretamente"
+          descricao: "Nome, e-mail, telefone ou outras informações preenchidas voluntariamente em formulários de contato, orçamentos ou cadastros."
+        - categoria: "Dados coletados automaticamente"
+          descricao: "Endereço IP, tipo de navegador, páginas visitadas, tempo de permanência, localização geográfica aproximada e identificadores de cookies."
+
+    - id: "finalidade_tratamento"
+      titulo: "Finalidade do Tratamento dos Dados"
+      finalidades:
+        - "Responder a dúvidas, solicitações e fornecer atendimento ao cliente."
+        - "Executar contratos ou prestar serviços solicitados pelo usuário."
+        - "Analisar métricas de audiência para melhorar a experiência de navegação e desempenho do site."
+        - "Enviar comunicações institucionais ou de marketing, mediante consentimento prévio."
+
+    - id: "cookies"
+      titulo: "Uso de Cookies e Tecnologias de Rastreamento"
+      descricao: "Utilizamos cookies para garantir o funcionamento adequado da página, lembrar preferências e coletar dados analíticos."
+      categorias:
+        - tipo: "Cookies Necessários"
+          finalidade: "Essenciais para a navegação básica e segurança da plataforma."
+          obrigatorio: true
+        - tipo: "Cookies Analíticos"
+          finalidade: "Auxiliam na compreensão de como os visitantes interagem com o site (ex.: Google Analytics)."
+          obrigatorio: false
+        - tipo: "Cookies de Marketing"
+          finalidade: "Utilizados para fornecer anúncios relevantes aos interesses do usuário."
+          obrigatorio: false
+      gestao_consentimento: "O usuário pode alterar ou revogar suas preferências a qualquer momento por meio do banner de consentimento ou nas configurações do navegador."
+
+    - id: "compartilhamento_terceiros"
+      titulo: "Compartilhamento de Dados com Terceiros"
+      declaracao: "A Vértice Social Mídia não vende nem aluga dados pessoais."
+      hipoteses:
+        - "Provedores de hospedagem, infraestrutura e ferramentas analíticas."
+        - "Cumprimento de obrigações legais, ordens judiciais ou solicitações de autoridades competentes."
+
+    - id: "direitos_titular"
+      titulo: "Direitos do Titular de Dados (Art. 18 LGPD)"
+      direitos:
+        - "Confirmar a existência de tratamento de dados."
+        - "Acessar, corrigir ou atualizar dados incompletos, inexatos ou desatualizados."
+        - "Solicitar anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos."
+        - "Revogar o consentimento a qualquer momento."
+
+    - id: "seguranca"
+      titulo: "Segurança da Informação"
+      conteudo: >
+        Adotamos medidas técnicas e organizacionais adequadas (como criptografia SSL/TLS
+        e controle de acesso restrito) para proteger os dados pessoais contra acessos
+        não autorizados, perdas ou alterações indevidas.
+
+    - id: "contato_dpo"
+      titulo: "Canal de Contato e Encarregado de Dados (DPO)"
+      email: "contato@verticesocialmidia.com"
+      email_secundario: "contato@verticesm.com"
+      responsavel_dpo: "Encarregado de Proteção de Dados - Vértice Social Mídia"
+      canal_atendimento: "https://verticesocialmidia.com/#contato"
+
+cookie_consent_banner:
+  id: "vertice-cookie-consent"
+  trigger: "first_visit"
+  position: "bottom-fixed"
+  theme:
+    bg_color: "#0f172a"
+    text_color: "#f8fafc"
+    accent_color: "#d4af37"
+    border_radius: "12px"
+    box_shadow: "0 10px 25px -5px rgba(0, 0, 0, 0.4)"
+
+  content:
+    title: "Sua privacidade é importante para nós"
+    message: >
+      Utilizamos cookies e tecnologias semelhantes para aprimorar sua experiência,
+      analisar o tráfego e personalizar conteúdos e anúncios, em conformidade com a LGPD.
+    privacy_policy_link:
+      label: "Política de Privacidade (LGPD)"
+      target_url: "/politica-de-privacidade/"
+      open_in_new_tab: true
+
+  actions:
+    accept_all:
+      label: "Aceitar Todos"
+      action_type: "grant_all"
+      style: "primary"
+    reject_all:
+      label: "Recusar Não Essenciais"
+      action_type: "deny_optional"
+      style: "outline"
+    customize:
+      label: "Personalizar"
+      action_type: "open_modal"
+      style: "ghost"
+
+  categories:
+    - id: "essential"
+      name: "Cookies Estritamente Necessários"
+      description: "Fundamentais para o funcionamento básico, navegação segura e integridade do site."
+      required: true
+      default_state: true
+      editable: false
+
+    - id: "analytics"
+      name: "Cookies de Análise e Métricas"
+      description: "Ajudam a entender o comportamento dos visitantes e medir a performance das páginas."
+      required: false
+      default_state: false
+      editable: true
+
+    - id: "marketing"
+      name: "Cookies de Marketing e Remarketing"
+      description: "Utilizados para rastrear conversões e exibir anúncios segmentados no Google e Meta."
+      required: false
+      default_state: false
+      editable: true
+
+  storage:
+    key_name: "vertice_cookie_preferences"
+    type: "localStorage"
+    expiration_days: 180
