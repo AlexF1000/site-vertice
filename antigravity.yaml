@@ -4,11 +4,13 @@
 
 project:
   name: "Vértice Social Mídia"
-  version: "1.0"
+  version: "1.1"
   mode: "clean-rebuild"
   type: "one-page"
-  industry: "Agência de Marketing Digital, Tráfego Pago e Automações com IA"
-  dominio: "verticesocialmidia.com"
+  idioma_principal: "es"
+  idiomas_suportados: ["es", "pt"]
+  industry: "Agencia de Marketing Digital, Tráfico Pago y Automatizaciones con IA"
+  dominio: "verticesm.com"
   aesthetic: "Ultra-Premium, Luxury Dark Mode, Golden Accents, High-Tech, High-Contrast"
 
 role:
@@ -26,9 +28,9 @@ empresa:
   whatsapp: "5548998404830"
   telefone_formatado: "+55 (48) 99840-4830"
   emails:
-    contato: "contato@verticesocialmidia.com"
-    suporte: "suporte@verticesocialmidia.com"
-    comercial: "comercial@verticesocialmidia.com"
+    contato: "contato@verticesm.com"
+    suporte: "suporte@verticesm.com"
+    comercial: "comercial@verticesm.com"
   horario: "Segunda a Sexta: 08h às 19h | Suporte a Campanhas: 24/7"
   bairros_atendidos: "Santo Amaro da Imperatriz, Florianópolis (Centro, Trindade, Lagoa, Norte e Sul da Ilha, Continente), São José (Kobrasol, Campinas, Barreiros), Palhoça (Pedra Branca, Pagani), Biguaçu e atendimento remoto em todo o Brasil"
   area_cobertura: "Grande Florianópolis e todo o território nacional"
@@ -255,7 +257,7 @@ politica_privacidade:
   meta:
     titulo: "Política de Privacidade"
     empresa: "Vértice Social Mídia (Vertice SM)"
-    dominio: "verticesocialmidia.com"
+    dominio: "verticesm.com"
     dominio_alternativo: "verticesm.com"
     versao: "1.0"
     data_atualizacao: "2026-08-26"
@@ -267,7 +269,7 @@ politica_privacidade:
       conteudo: >
         Esta Política de Privacidade descreve como a Vértice Social Mídia coleta, utiliza,
         armazena e protege os dados pessoais dos usuários que acessam o site
-        verticesocialmidia.com / verticesm.com, em estrita conformidade com a LGPD.
+        verticesm.com / verticesm.com, em estrita conformidade com a LGPD.
 
     - id: "informacoes_coletadas"
       titulo: "Informações Coletadas"
@@ -324,10 +326,10 @@ politica_privacidade:
 
     - id: "contato_dpo"
       titulo: "Canal de Contato e Encarregado de Dados (DPO)"
-      email: "contato@verticesocialmidia.com"
+      email: "contato@verticesm.com"
       email_secundario: "contato@verticesm.com"
       responsavel_dpo: "Encarregado de Proteção de Dados - Vértice Social Mídia"
-      canal_atendimento: "https://verticesocialmidia.com/#contato"
+      canal_atendimento: "https://verticesm.com/#contato"
 
 cookie_consent_banner:
   id: "vertice-cookie-consent"

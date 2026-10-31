@@ -1,3 +1,7 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* ==========================================================================
    VÉRTICE SOCIAL MÍDIA — CUSTOM STYLES & LUXURY DESIGN TOKENS
    Palette: Noble Gold (#A27A1A) + Deep Luxury Dark (#080C14)
@@ -165,7 +169,12 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   background: #A27A1A;
 }
 
-/* WhatsApp Floating Button Animation */
+/* WhatsApp Floating Button Animation & Safe Transitions */
+.whatsapp-floating-btn {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, opacity 0.2s ease;
+  will-change: transform;
+}
+
 .whatsapp-pulse {
   animation: pulse-gold 2.4s infinite;
 }
@@ -203,4 +212,12 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 @keyframes floatSlow {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
+}
+
+/* Contact Card Text Wrap & Overflow Protection */
+.contact-card-content {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }

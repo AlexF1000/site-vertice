@@ -1,111 +1,324 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ========================================== -->
+  <!-- 1. VERSÃO EM ESPANHOL (IDIOMA PRINCIPAL)    -->
+  <!-- ========================================== -->
+
   <!-- Homepage -->
   <url>
-    <loc>https://verticesocialmidia.com/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Páginas de Serviços -->
+  <!-- Páginas de Servicios -->
   <url>
-    <loc>https://verticesocialmidia.com/trafego-pago/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/trafego-pago/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/trafego-pago/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/trafego-pago/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/trafego-pago/"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/criacao-de-sites/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/criacao-de-sites/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/criacao-de-sites/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/criacao-de-sites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/criacao-de-sites/"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/automacoes-ia/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/automacoes-ia/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/automacoes-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/automacoes-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/automacoes-ia/"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/media-social/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/media-social/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/media-social/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/media-social/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/media-social/"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/seo-copy/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/seo-copy/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/seo-copy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/seo-copy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/seo-copy/"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/identidade-visual/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/identidade-visual/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/identidade-visual/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/identidade-visual/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/identidade-visual/"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Institucional & Legal -->
+  <!-- Legal & Institucional -->
   <url>
-    <loc>https://verticesocialmidia.com/politica-de-privacidade/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/politica-de-privacidade/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/politica-de-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/politica-de-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/politica-de-privacidade/"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <!-- Blog Hub -->
   <url>
-    <loc>https://verticesocialmidia.com/blog/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Blog Articles -->
+  <!-- Blog Artigos -->
   <url>
-    <loc>https://verticesocialmidia.com/blog/a-importancia-de-contratar-uma-boa-hospedagem-para-o-seu-site.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/blog/a-importancia-de-contratar-uma-boa-hospedagem-para-o-seu-site.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/a-importancia-de-contratar-uma-boa-hospedagem-para-o-seu-site.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/a-importancia-de-contratar-uma-boa-hospedagem-para-o-seu-site.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/a-importancia-de-contratar-uma-boa-hospedagem-para-o-seu-site.html"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/blog/como-funciona-o-trafego-pago.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/blog/como-funciona-o-trafego-pago.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/como-funciona-o-trafego-pago.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/como-funciona-o-trafego-pago.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/como-funciona-o-trafego-pago.html"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/blog/criacao-de-sites-alta-conversao.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/blog/criacao-de-sites-alta-conversao.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/criacao-de-sites-alta-conversao.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/criacao-de-sites-alta-conversao.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/criacao-de-sites-alta-conversao.html"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/blog/otimizacao-seo-topo-do-google.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/blog/otimizacao-seo-topo-do-google.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/otimizacao-seo-topo-do-google.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/otimizacao-seo-topo-do-google.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/otimizacao-seo-topo-do-google.html"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/blog/automacoes-com-inteligencia-artificial.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/blog/automacoes-com-inteligencia-artificial.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/automacoes-com-inteligencia-artificial.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/automacoes-com-inteligencia-artificial.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/automacoes-com-inteligencia-artificial.html"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/blog/social-media-estrategico-vendas.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/blog/social-media-estrategico-vendas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/social-media-estrategico-vendas.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/social-media-estrategico-vendas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/social-media-estrategico-vendas.html"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://verticesocialmidia.com/blog/identidade-visual-branding-estrategico.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://verticesm.com/blog/identidade-visual-branding-estrategico.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/identidade-visual-branding-estrategico.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/identidade-visual-branding-estrategico.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/identidade-visual-branding-estrategico.html"/>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- ========================================== -->
+  <!-- 2. VERSÃO EM PORTUGUÊS (/pt/)               -->
+  <!-- ========================================== -->
+
+  <!-- Homepage PT -->
+  <url>
+    <loc>https://verticesm.com/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Serviços PT -->
+  <url>
+    <loc>https://verticesm.com/pt/trafego-pago/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/trafego-pago/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/trafego-pago/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/trafego-pago/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/criacao-de-sites/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/criacao-de-sites/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/criacao-de-sites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/criacao-de-sites/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/automacoes-ia/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/automacoes-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/automacoes-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/automacoes-ia/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/media-social/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/media-social/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/media-social/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/media-social/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/seo-copy/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/seo-copy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/seo-copy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/seo-copy/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/identidade-visual/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/identidade-visual/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/identidade-visual/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/identidade-visual/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Legal & Institucional PT -->
+  <url>
+    <loc>https://verticesm.com/pt/politica-de-privacidade/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/politica-de-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/politica-de-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/politica-de-privacidade/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.45</priority>
+  </url>
+
+  <!-- Blog Hub PT -->
+  <url>
+    <loc>https://verticesm.com/pt/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Blog Artigos PT -->
+  <url>
+    <loc>https://verticesm.com/pt/blog/a-importancia-de-contratar-uma-boa-hospedagem-para-o-seu-site.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/a-importancia-de-contratar-uma-boa-hospedagem-para-o-seu-site.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/a-importancia-de-contratar-uma-boa-hospedagem-para-o-seu-site.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/a-importancia-de-contratar-uma-boa-hospedagem-para-o-seu-site.html"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/blog/como-funciona-o-trafego-pago.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/como-funciona-o-trafego-pago.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/como-funciona-o-trafego-pago.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/como-funciona-o-trafego-pago.html"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/blog/criacao-de-sites-alta-conversao.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/criacao-de-sites-alta-conversao.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/criacao-de-sites-alta-conversao.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/criacao-de-sites-alta-conversao.html"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/blog/otimizacao-seo-topo-do-google.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/otimizacao-seo-topo-do-google.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/otimizacao-seo-topo-do-google.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/otimizacao-seo-topo-do-google.html"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/blog/automacoes-com-inteligencia-artificial.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/automacoes-com-inteligencia-artificial.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/automacoes-com-inteligencia-artificial.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/automacoes-com-inteligencia-artificial.html"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/blog/social-media-estrategico-vendas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/social-media-estrategico-vendas.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/social-media-estrategico-vendas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/social-media-estrategico-vendas.html"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://verticesm.com/pt/blog/identidade-visual-branding-estrategico.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://verticesm.com/blog/identidade-visual-branding-estrategico.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://verticesm.com/pt/blog/identidade-visual-branding-estrategico.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://verticesm.com/blog/identidade-visual-branding-estrategico.html"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
 </urlset>
