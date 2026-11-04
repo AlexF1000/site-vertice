@@ -13,6 +13,16 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
+# 2.1 CSS & Asset Compatibility Fallbacks
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^css/style\.css$ /assets/css/style.css [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^pt/css/style\.css$ /assets/css/style.css [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^img/(.*)$ /assets/img/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^pt/img/(.*)$ /assets/img/$1 [L]
+
 # 3. Custom 404 Handler (Fallback to One-Page Root)
 ErrorDocument 404 /index.html
 
