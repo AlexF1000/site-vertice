@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Site Vértice Social Mídia & Performance",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --minify",
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --minify && node -e \"const fs=require('fs');fs.copyFileSync('dist/css/style.css','dist/assets/css/style.css')\"",
     "watch:css": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch",
     "build": "npm run build:css"
   },
